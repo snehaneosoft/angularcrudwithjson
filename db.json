@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "Name": "ss",
+      "Div": "ss",
+      "Rollno": "30",
+      "EmailId": "sneha.upadhyay@neosoftmail.com",
+      "id": 2
+    },
+    {
+      "Name": "sneha",
+      "Div": "b",
+      "Rollno": "5",
+      "EmailId": "snehaupadhyayneosoft@gmail.com",
+      "id": 3
+    },
+    {
+      "Name": "test123",
+      "Div": "test",
+      "Rollno": "3",
+      "EmailId": "test@gmail.com",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

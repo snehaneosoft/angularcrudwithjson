@@ -1,0 +1,30 @@
+
+<div class="container">
+    <form [formGroup]="studentInfo" (ngSubmit)="updateInfo()">
+      <div class="col-sm-6 ">
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="Enter name"  formControlName="Name">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+            <input type="text" class="form-control" id="div" placeholder="Enter divison" formControlName="Div">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <input type="text" class="form-control" id="rollno" placeholder="Enter rollno" formControlName="Rollno">
+        </div>
+        </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Enter email address" formControlName="EmailId">
+        </div>
+      </div>
+      <div class="col-sm-6"> <button type="submit" >Update</button> </div>
+    </form>
+    <hr>
+   
+    
+    
+    </div>
